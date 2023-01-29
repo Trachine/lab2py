@@ -42,15 +42,18 @@ a = input("Masukan nilai a : ")
 b = input("Masukan nilai b : ")
 
 # cetak nilai variable
-print("Variable a = ",a)
-print("Variable b = ",b)
+print ("Variable a = ",a)
+print ("Variable b = ",b)
 
 # cetak hasil operasi kedua variable dengan String Format
-print("Hasil penggabungan {l}&{0}=d%".format(a,b) %(a+b))
+print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 
 # konversi nilai variable
 a = int(a)
 b = int(b)
-print("Hasil penjumlahan {l}+{0}=d%".format(a,b) %(a+b))
-print("Hasil pembagian {l}/{0}=d%".format(a,b) %(a/b))
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
+![3](https://user-images.githubusercontent.com/123666514/215309839-21df2d8c-26fe-4986-9a4a-ec7a7fb718ff.PNG)
+
+![3 1](https://user-images.githubusercontent.com/123666514/215309842-41526ad3-19a6-4803-82fc-2103775e0955.PNG)
